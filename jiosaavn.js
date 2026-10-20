@@ -1,3 +1,4 @@
+return (() => {
 const API_BASE = 'https://saavn.dev/api';
 
 const requestJson = async (url) => {
@@ -83,10 +84,11 @@ const findAudioUrl = (data, quality) => {
 };
 
 return {
-    id: 'jiosaavn',
-    name: 'JioSaavn',
-    version: '1.0.0',
-    labels: ['JioSaavn', 'Search', 'Streaming'],
+    id: 'snoopy-jiosaavn',
+    name: 'Snoopy Shit',
+    version: '1.0.1',
+    author: 'Snoopy',
+    labels: ['JioSaavn', 'Snoopy', 'Search', 'Streaming'],
 
     searchTracks: async (query, limit = 20) => {
         const term = String(query || '').trim();
@@ -158,3 +160,4 @@ return {
         };
     }
 };
+})();
