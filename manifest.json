@@ -1,0 +1,7 @@
+{
+  "name": "JioSaavn",
+  "id": "jiosaavn",
+  "version": "1.0.0",
+  "entry": "jiosaavn.8spine",
+  "description": "Search JioSaavn and resolve track streams in 8SPINE."
+}
